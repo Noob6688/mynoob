@@ -3,5 +3,5 @@
  */
 module.exports = {
     port:80,
-    mongodb:'mongodb://<mynoobs>:<123456abc>@ds033915.mlab.com:33915/mynoob'
+    mongodb:'mongodb://mynoobs:123456abc@ds033915.mlab.com:33915/mynoob'
 };
