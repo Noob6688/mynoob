@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha",
-    "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'mynoob'",
-    "heroku": "NODE_ENV=production node --harmony index"
+    "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'mynoob'"
   },
   "author": "",
   "license": "ISC",
